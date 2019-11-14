@@ -1,0 +1,89 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+#menustrip{
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+}
+
+#mlogo{
+    width: 30%;
+    height: 100%;
+    font-size: 100%;
+    float: left;
+    text-align: right;
+    
+}
+
+#mlogo:hover{
+    
+    display: none;
+    
+}
+#m2{
+    float: right;
+    
+    width: 70%;
+    height: 100%;
+    
+}
+
+#mchild1{
+    height: 100%;
+    
+    text-align: center;
+    
+}
+#mchild2{
+    height: 100%;
+    text-align: center;
+    
+}
+#mchild3{
+    height: 100%;
+    text-align: center;
+    
+}
+#mchild4{
+    height: 100%;
+    text-align: center;
+    
+}
+#mchild5{
+    height: 100%;
+    text-align: center;
+}
+#mchild6{
+    height: 100%;
+    text-align: center;
+}
+#mchild7{
+    height: 100%;
+    text-align: center;
+}
+#mchild8{
+    height: 100%;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    /*border: 1px solid black;  */
+    font-size: 100%;
+    margin: 0px 1% 0px 1% ;
+    
+}
+li:hover{
+    color: antiquewhite;
+}
+
+
+
