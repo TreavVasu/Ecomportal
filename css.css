@@ -16,7 +16,8 @@
     height: 100%;
     font-size: 100%;
     float: left;
-    text-align: right;
+    
+    text-align: center;
     
 }
 
@@ -25,9 +26,10 @@
     display: none;
     
 }
+
 #m2{
     float: right;
-    
+    margin-top: 5px;    
     width: 70%;
     height: 100%;
     
@@ -84,6 +86,175 @@ li{
 li:hover{
     color: antiquewhite;
 }
+.imagescroll1{
+    background: url("img3.jpg");
+    height: 339px;
+    background-attachment: fixed;
+    position: relative;
+}
+#imagescroll2{
+    background: url("6.jpg");
+    height: 230px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#Trainbuy{
+    border: 5px solid orange;
+    height: 15%;
+    width: 15%;
+    border-radius: 20px;
+    background: none;
+    font-weight: 700;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    left:50%;
+    top:50%;       
+}
+
+/*
+#buyitem{
+    border: 1px solid orange;
+    background: none;
+    font-weight: 700;
+    height: 100%;
+    width:100%;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    
+}*/
+
+#Tobuy{
+    height:30%;
+    width: 100%;
+}
+/*.it{
+    
+}
+*/
+#i1{
+    background:url(cat2.png);
+    height: 100%;
+    width: 175;
+    margin: 15px;
+}
+
+#i2{
+    background:url(cat.jpg);
+    height: 100%;
+    width: 175;
+    
+    margin: 15px;
+}
+
+#i3{
+    background:url(cat2.png);
+    height: 100%;
+    width: 175;
+    
+    margin: 15px;
+}
+
+#i4{
+    background:url(cat.jpg);
+    height: 100%;
+    width: 175;
+    margin: 15px;
+}
+
+#i5{
+    background:url(cat2.png);
+    height: 100%;
+    width: 175;
+    margin: 15px;
+}
+
+#i6{
+    background:url(cat.jpg);
+    height: 100%;
+    width: 175;
+    margin: 15px;
+}
 
 
+#Tobuy2{
+    height:40%;
+    width: 100%;
+}
+
+.it2{
+    
+    height: 100%;
+    width: 350px;
+}
+
+#it1{
+    background:url(1.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+}
+
+#it2{
+    background:url(2.png);    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 50%;
+}
+
+#it3{
+    background:url(3.png);    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 70%;
+}
+
+#it4{
+    background:url(4.png);
+        height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+
+}
+
+#it5{
+    background:url(5.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 50%;
+}
+
+#it6{
+    background:url(6.png);    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 70%;
+}
+*/
+
+.imagescroll3{
+     background: url(img1.jpg);
+
+    height: 230px;
+    width: 100%;
+   
+}
+h1{
+   text-align: center;
+    font-family: monospace;
+    letter-spacing: 15px;
+    background-color: azure;
+    background-attachment: scroll;
+       
+}
+p{
+    font-family: monospace;
+    letter-spacing: 1px;
+    background: url(al.jpg);
+    background-attachment:fixed;
+    
+}
 
