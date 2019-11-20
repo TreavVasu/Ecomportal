@@ -6,89 +6,194 @@
 }
 
 #menustrip{
-    width: 100%;
+    /*width: 100%;
     height: 30px;
-    background-color: orange;
+    background-color: orange;*/
 }
 
 #mlogo{
-    width: 30%;
     height: 100%;
     font-size: 100%;
-    float: left;
-    
+    margin-top: 10px;
     text-align: center;
+    grid-area: logo;
     
 }
 
 #mlogo:hover{
     
-    display: none;
+    /*display: none;
+    */
+    color: chartreuse;
+    font-family: 'Calistoga', cursive;
+    font-weight: 900;
+    
     
 }
 
 #m2{
-    float: right;
-    margin-top: 5px;    
-    width: 70%;
-    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(8 ,1fr);
+    grid-template-rows: minmax(50px,auto); 
+    
+    margin-top: 5px;
+    text-align: center;
+    grid-template-areas: 
+        "logo deal  categories me coupons sell  search cart"
+   
     
 }
-
+/*DIV For Menu Bascic*/
 #mchild1{
-    height: 100%;
     
     text-align: center;
+    margin-top: 10px;
+    grid-area: deal;
     
 }
 #mchild2{
-    height: 100%;
     text-align: center;
-    
+    margin-top: 10px;
+    grid-area: categories;
 }
 #mchild3{
-    height: 100%;
     text-align: center;
-    
+    margin-top: 10px;
+    grid-area: me;
 }
 #mchild4{
-    height: 100%;
     text-align: center;
-    
+    margin-top: 10px;
+    grid-area: coupons;
 }
 #mchild5{
-    height: 100%;
     text-align: center;
+    margin-top: 10px;
+    grid-area: sell;
 }
 #mchild6{
-    height: 100%;
     text-align: center;
+    margin-top: 10px;
+    grid-area: search;
 }
 #mchild7{
-    height: 100%;
     text-align: center;
+    margin-top: 10px;
+    grid-area: cart;
 }
+/*
 #mchild8{
-    height: 100%;
     text-align: center;
-}
+    margin-top: 10px;
+}*/
+/*DIV For Menu Hover*/
 
-ul{
-    list-style: none;
-}
-li{
-    display: inline-block;
-    /*border: 1px solid black;  */
-    font-size: 100%;
-    margin: 0px 1% 0px 1% ;
+#mchild1:hover{
+    
+    /*display: none;
+    */
+    color: orange;
+    font-family: cursive;
+
+    font-weight: 900;
+    
     
 }
-li:hover{
-    color: antiquewhite;
+#mchild2:hover{
+    
+    /*display: none;
+    */
+    color: orange;
+    font-family: cursive;
+
+    font-weight: 900;
+    
+    
 }
+#mchild3:hover{
+    
+    /*display: none;
+    */
+    color: orange;
+    font-family: cursive;
+
+    font-weight: 900;
+    
+    
+}
+#mchild4:hover{
+    
+    /*display: none;
+    */
+    color: orange;
+    font-family: cursive;
+
+    font-weight: 900;
+    
+    
+}
+#mchild5:hover{
+    
+    /*display: none;
+    */
+    color: orange;
+    font-family: cursive;
+
+    font-weight: 900;
+    
+    
+}
+#mchild6:hover{
+    
+    /*display: none;
+    */
+    color: orange;
+    font-family: cursive;
+
+    font-weight: 900;
+    
+    
+}
+#mchild7:hover{
+    
+    /*display: none;
+    */
+    color: orange;
+    font-family: cursive;
+
+    font-weight: 900;
+    
+    
+}
+
+
+
+
+
+/*Hover ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .imagescroll1{
     background: url("img3.jpg");
     height: 339px;
+    width: 100%;
     background-attachment: fixed;
     position: relative;
 }
@@ -124,56 +229,70 @@ li:hover{
     
 }*/
 
+#buy{
+    border: 5px solid orange;
+  
+    border-radius: 2px;
+    background: none;
+    font-weight: 700;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px); 
+}
+
+
+
+
 #Tobuy{
-    height:30%;
-    width: 100%;
 }
 /*.it{
     
 }
+
 */
+#item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(150px, auto);
+     grid-row-gap: 10px;
+}
 #i1{
     background:url(cat2.png);
     height: 100%;
-    width: 175;
-    margin: 15px;
+    
+    
+    background-repeat: no-repeat;
 }
 
 #i2{
     background:url(cat.jpg);
     height: 100%;
-    width: 175;
     
-    margin: 15px;
-}
+    background-repeat: no-repeat;
+    }
 
 #i3{
     background:url(cat2.png);
     height: 100%;
-    width: 175;
+    background-repeat: no-repeat;
     
-    margin: 15px;
 }
 
 #i4{
     background:url(cat.jpg);
     height: 100%;
-    width: 175;
-    margin: 15px;
+    background-repeat: no-repeat;
 }
 
 #i5{
     background:url(cat2.png);
     height: 100%;
-    width: 175;
-    margin: 15px;
+    background-repeat: no-repeat;
 }
 
 #i6{
     background:url(cat.jpg);
     height: 100%;
-    width: 175;
-    margin: 15px;
+    background-repeat: no-repeat;
 }
 
 
@@ -188,51 +307,49 @@ li:hover{
     width: 350px;
 }
 
+#item2{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 20%;
+    /*
+    grid-template-columns: repeat(3, 1fr);
+    */
+    grid-row-gap: 10px;
+    grid-auto-rows: minmax(150px, auto);
+}
+
 #it1{
     background:url(1.png);
-    height: 100%;
-    width: 100%;
     background-repeat: no-repeat;
-    margin-left: 40%;
+    
 }
 
 #it2{
-    background:url(2.png);    height: 100%;
-    width: 100%;
+    background:url(2.png);   
     background-repeat: no-repeat;
-    margin-left: 50%;
-}
+    }
 
 #it3{
-    background:url(3.png);    height: 100%;
-    width: 100%;
+    background:url(3.png);   
     background-repeat: no-repeat;
-    margin-left: 70%;
-}
+    }
 
 #it4{
     background:url(4.png);
-        height: 100%;
-    width: 100%;
+        /*height: 100%;
+    width: 100%;*/
     background-repeat: no-repeat;
-    margin-left: 40%;
-
+    
 }
 
 #it5{
     background:url(5.png);
-    height: 100%;
-    width: 100%;
     background-repeat: no-repeat;
-    margin-left: 50%;
-}
+    }
 
 #it6{
-    background:url(6.png);    height: 100%;
-    width: 100%;
+    background:url(6.png);
     background-repeat: no-repeat;
-    margin-left: 70%;
-}
+    }
 */
 
 .imagescroll3{
@@ -258,3 +375,57 @@ p{
     
 }
 
+@media screen and(max-width:1024){
+    #item{
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-row-gap: 10px;
+        
+    }
+    
+    
+    #m2{
+        
+        display: grid;
+        grid-auto-rows:minmax(200px,auto); 
+         grid-template-areas: 
+        "logo logo logo logo logo logo logo logo"
+        "deal deal deal deal deal deal deal deal"
+        "categories categories categories categories categories categories categories categories"
+        "me me me me me me me me"
+        "coupons coupons coupons coupons coupons coupons coupons coupons"
+        "sell sell sell sell sell sell sell sell"
+        "search search search search search search search search"
+        "cart cart cart cart cart cart cart cart"
+ 
+        text-align: center;
+}
+    
+    
+}
+
+@media screen and(max-width:480px){
+     #item{
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: minmax(100px, auto);
+        grid-row-gap: 10px;
+        
+    }
+    #m2{
+        
+        display: grid;
+        grid-auto-rows:minmax(200px,auto); 
+         grid-template-areas: 
+        "logo logo logo logo logo logo logo logo"
+        "deal deal deal deal deal deal deal deal"
+        "categories categories categories categories categories categories categories categories"
+        "me me me me me me me me"
+        "coupons coupons coupons coupons coupons coupons coupons coupons"
+        "sell sell sell sell sell sell sell sell"
+        "search search search search search search search search"
+        "cart cart cart cart cart cart cart cart"
+ 
+        text-align: center;
+}
+    
+}
