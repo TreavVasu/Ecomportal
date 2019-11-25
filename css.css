@@ -401,6 +401,9 @@ p{
         text-align: center;
 }
     
+    #buy{
+        display: none;
+    }
     
 }
 
@@ -428,4 +431,7 @@ p{
         text-align: center;
 }
     
+    #buy{
+        display: none;
+    }
 }
